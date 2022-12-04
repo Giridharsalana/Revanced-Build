@@ -29,6 +29,4 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '18'
-      # Runs a single command using the runners shell
-      - name: Runs a  script
       - run: ./Revanced.sh
