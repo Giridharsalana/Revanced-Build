@@ -32,6 +32,12 @@ jobs:
           java-version: '18'
       - name: Run Revanced script
         run: ./Revanced.sh
+      - name: Check if revanced-music apk is created
+        id: check_files
+        uses: andstor/file-existence-action@v2
+        with:
+         files: "revanced-music-*-non-root.apk"
+         fail: true
       - name: 'Upload Artifact'
         uses: actions/upload-artifact@v3
         with:
