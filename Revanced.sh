@@ -9,5 +9,5 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install openjdk-17-jdk openjdk-17-jre -y 
 ./patch.sh
 cp *-non-root.apk ../revanced.apk
-curl -T ../revanced.apk temp.sh
+
 rm -rf ../Revanced
