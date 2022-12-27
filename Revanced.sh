@@ -10,4 +10,4 @@ export additional_args="-e return-youtube-dislike"
 ./patch.sh
 cp *-non-root.apk ../revanced.apk
 
-rm -rf ../Revanced
+#rm -rf ../Revanced
